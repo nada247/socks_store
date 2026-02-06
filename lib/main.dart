@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:socks_store/Page2.dart';
 
+
 void main(){
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(
@@ -163,3 +164,4 @@ class _SocksState extends State<Socks> {
     );
   }
 }
+//
